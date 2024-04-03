@@ -5,7 +5,7 @@
 </script>
 
 <main class="container">
-  <div class="row">
+  <div class="row" style="display: flex">
     <Extend/>
     <Greet />
     <Draw/>
