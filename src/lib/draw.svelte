@@ -7,13 +7,15 @@ import { invoke } from "@tauri-apps/api/tauri"
 
 <div>
     <form class="tools" >
-      <canvas id="myCanvas" width="1024" height="1024"></canvas>
+      <canvas id="myCanvas"></canvas>
     </form>
 </div>
 
 <style>
   #myCanvas{
-   background-color: red; 
+    width: 1280px;
+    height: 960px;
+    margin: 0 auto;
   }
 
 </style>
